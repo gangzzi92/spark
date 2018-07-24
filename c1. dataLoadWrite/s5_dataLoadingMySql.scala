@@ -13,10 +13,10 @@ object s5_dataLoadingMySql {
 
     ///////////////////////////  데이터 파일 로딩  ////////////////////////////////////
     // 접속정보 설정 (1)
-    var staticUrl = "jdbc:mysql://kopo2.cf0xvfbyuytw.us-east-1.rds.amazonaws.com:3306/kopo"
+    var staticUrl = "jdbc:mysql://ipaddress:3306/kopo"
 
-    var staticUser = "kopo"
-    var staticPw = "kopo1234"
+    var staticUser = "id"
+    var staticPw = "password"
     var selloutDb = "kopo_product_volume"
 
     // 관계형 데이터베이스 Oracle 연결 (2)
